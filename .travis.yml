@@ -5,11 +5,11 @@ env:
     - API=26
 
 before_install:
-  - export EMULATOR="$ABI" 
+  - export EMULATOR="$API" 
 
 install:
   - echo "Emulator package $EMULATOR"
 
 script:
-  - echo $ABI xxx
+  - echo $API xxx
   - echo $PATH
