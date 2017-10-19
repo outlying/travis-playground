@@ -1,0 +1,14 @@
+sudo: required
+
+env:
+  global:
+    - API=26
+
+before_install:
+  - export EMULATOR="$ABI" 
+
+install:
+  - echo "Emulator package $EMULATOR"
+
+script:
+  - echo "$ABI xxx"
