@@ -12,3 +12,4 @@ install:
 
 script:
   - echo "$ABI xxx"
+  - echo $PATH
